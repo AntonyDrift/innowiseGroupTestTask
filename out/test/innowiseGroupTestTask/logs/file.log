@@ -1,0 +1,73 @@
+INFO    2019-09-03 02:06:41,612 [main] root  - Successful setup a logger
+INFO    2019-09-03 02:06:53,037 [main] Action  - Successful! Action:view
+WARN    2019-09-03 02:06:55,389 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:06:55,389 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:07:23,022 [main] Form  - It's email? true
+INFO    2019-09-03 02:07:30,860 [main] Form  - It's number? true
+INFO    2019-09-03 02:07:33,218 [main] Form  - Successful. Got next user: User(name=Evgenya, surname=Kolobkova, email=kolobkova_evgenya@yandex.ru, number=+375447915891, roles=[user])
+WARN    2019-09-03 02:07:33,219 [main] Database  - Existing index:1
+WARN    2019-09-03 02:07:33,219 [main] Database  - Add user: ID=1;User=User(name=Evgenya, surname=Kolobkova, email=kolobkova_evgenya@yandex.ru, number=+375447915891, roles=[user])
+INFO    2019-09-03 02:07:33,219 [main] Action  - Successful! Action:add
+INFO    2019-09-03 02:07:38,769 [main] Action  - Successful! Action:view
+WARN    2019-09-03 02:07:41,255 [main] Database  - Userlist is saved from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:07:41,255 [main] Action  - Successful!  Action:saveList
+WARN    2019-09-03 02:08:41,389 [main] Database  - This user already exist? (ID=9) It's false
+INFO    2019-09-03 02:08:41,389 [main] Action  - User (ID=9) is found?false
+WARN    2019-09-03 02:10:21,839 [main] Database  - This user already exist? (ID=0) It's true
+INFO    2019-09-03 02:10:21,840 [main] Action  - User (ID=0) is found?true
+INFO    2019-09-03 02:10:43,437 [main] Form  - It's email? true
+INFO    2019-09-03 02:10:49,391 [main] Form  - It's number? true
+INFO    2019-09-03 02:10:56,801 [main] Form  - Successful. Got next user: User(name=Anton, surname=Zhurkov, email=antonydrift96@hotmail.com, number=+375257585677, roles=[admin, user])
+WARN    2019-09-03 02:10:56,801 [main] Database  - Edit user: Current ID=0;User=User(name=Anton, surname=Zhurkov, email=antonydrift96@hotmail.com, number=+375257585677, roles=[admin, user])
+INFO    2019-09-03 02:10:56,802 [main] Action  - Successful! Action:edit
+INFO    2019-09-03 02:11:00,189 [main] Action  - Successful! Action:view
+WARN    2019-09-03 02:12:19,736 [main] Database  - Userlist is saved from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:12:19,736 [main] Action  - Successful!  Action:saveList
+INFO    2019-09-03 02:18:29,974 [main] root  - Successful setup a logger
+INFO    2019-09-03 02:18:32,866 [main] Action  - Successful! Action:view
+INFO    2019-09-03 02:19:58,739 [main] root  - Successful setup a logger
+WARN    2019-09-03 02:20:05,438 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:20:05,439 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:21:32,136 [main] root  - Successful setup a logger
+INFO    2019-09-03 02:22:57,100 [main] root  - Successful setup a logger
+INFO    2019-09-03 02:23:29,496 [main] root  - Successful setup a logger
+WARN    2019-09-03 02:23:37,803 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:23:37,803 [main] Action  - Successful!  Action:openList
+ERROR   2019-09-03 02:23:41,161 [main] Database  - Can't open userlist from this path.1 (Нет такого файла или каталога)
+INFO    2019-09-03 02:23:41,161 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:23:47,182 [main] Action  - Successful! Action:view
+INFO    2019-09-03 02:25:15,765 [main] root  - Successful setup a logger
+WARN    2019-09-03 02:25:26,921 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:25:26,922 [main] Action  - Successful!  Action:openList
+ERROR   2019-09-03 02:25:33,472 [main] Database  - Can't open userlist from this path.0 (Нет такого файла или каталога)
+INFO    2019-09-03 02:25:33,473 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:28:05,514 [main] root  - Successful setup a logger
+WARN    2019-09-03 02:28:12,596 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:28:12,596 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:28:30,872 [main] Action  - Successful! Action:view
+ERROR   2019-09-03 02:28:47,601 [main] Database  - Can't save userlist from this path./ (Это каталог)
+INFO    2019-09-03 02:28:47,602 [main] Action  - Successful!  Action:saveList
+ERROR   2019-09-03 02:29:39,788 [main] Database  - Can't save userlist from this path./users.dat (Отказано в доступе)
+INFO    2019-09-03 02:29:39,788 [main] Action  - Successful!  Action:saveList
+INFO    2019-09-03 02:44:55,805 [main] root  - Successful setup a logger
+ERROR   2019-09-03 02:45:03,771 [main] Database  - Can't open userlist from this path./ (Это каталог)
+INFO    2019-09-03 02:45:03,771 [main] Action  - Successful!  Action:openList
+ERROR   2019-09-03 02:45:28,570 [main] Database  - Can't save userlist from this path./users.dat (Отказано в доступе)
+INFO    2019-09-03 02:45:28,570 [main] Action  - Successful!  Action:saveList
+ERROR   2019-09-03 02:45:40,918 [main] Database  - Can't open userlist from this path.0 (Нет такого файла или каталога)
+INFO    2019-09-03 02:45:40,918 [main] Action  - Successful!  Action:openList
+WARN    2019-09-03 02:45:46,297 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:45:46,297 [main] Action  - Successful!  Action:openList
+INFO    2019-09-03 02:46:00,406 [main] Action  - Successful! Action:view
+WARN    2019-09-03 02:46:11,552 [main] Database  - This user already exist? (ID=1) It's true
+INFO    2019-09-03 02:46:11,552 [main] Action  - User (ID=1) is found? It'strue
+INFO    2019-09-03 02:46:15,403 [main] Form  - It's email? true
+INFO    2019-09-03 02:46:25,343 [main] Form  - It's number? false
+INFO    2019-09-03 02:46:29,680 [main] Form  - It's number? true
+INFO    2019-09-03 02:46:31,715 [main] Form  - Successful. Got next user: User(name=a, surname=a, email=a@a.a, number=+375257585677, roles=[quest])
+WARN    2019-09-03 02:46:31,716 [main] Database  - Edit user: Current ID=1;User=User(name=a, surname=a, email=a@a.a, number=+375257585677, roles=[quest])
+INFO    2019-09-03 02:46:31,716 [main] Action  - Successful! Action:edit
+WARN    2019-09-03 02:47:09,252 [main] Database  - Userlist is saved from path:/home/antonydrift/users.dat
+INFO    2019-09-03 02:47:09,252 [main] Action  - Successful!  Action:saveList
+WARN    2019-09-03 02:47:17,857 [main] Database  - Userlist is opened from path:/home/antonydrift/IdeaProjects/innowiseGroupTestTask/src/resource/users.dat
+INFO    2019-09-03 02:47:17,857 [main] Action  - Successful!  Action:openList
